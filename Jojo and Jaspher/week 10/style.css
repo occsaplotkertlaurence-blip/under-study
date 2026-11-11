@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #cfca98;
+  color: #1f2a24;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px 28px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 12px;
+  border: 1px solid #7a7a5a;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 16px;
+  padding: 10px 18px;
+  background-color: #1d6b3a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.header {
+  margin: 0 0 8px;
+}
