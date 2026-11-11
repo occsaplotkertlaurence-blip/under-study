@@ -1,0 +1,12 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #cfca98;
+  padding: 40px;
+}
+
+.header  { margin: 0 0 8px; }
+input    { display: block; width: 300px; padding: 8px; margin-top: 12px; box-sizing: border-box; }
+button   { margin-top: 12px; padding: 8px 16px; cursor: pointer; }
+#output  { font-weight: bold; margin-top: 16px; }
+.error   { color: #95473f; }
+.passed  { color: #1d6b3a; }
