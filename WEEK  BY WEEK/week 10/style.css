@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: hsl(30, 2%, 52%);
+  display: flex; /* put the card in the middle, left to right */
+  justify-content: center; /* put the card in the middle, left to right */
+  padding: 40px; /* space around the page edges */
+}
+
+.card {
+  background-color: #cfca98;
+  padding: 24px 28px; /* space inside the card */
+  border-radius: 10px; /* rounded corners */
+  width: 360px; /* fixed card width */
+}
+
+label    { display: block; margin-top: 12px; } /* each label sits on its own line, with space above */
+input    { width: 100%; padding: 8px; box-sizing: border-box; } /* full width; border-box keeps padding inside the 100% */
+#output  { font-weight: bold; margin-top: 16px; } /* bold result text, spaced from the form */
+.error   { color: #95473f; }
+.passed  { color: #1d6b3a; }
+.failed  { color: #b45309; }
+button   { margin-top: 12px; padding: 8px 16px; cursor: pointer; } /* spaced out, pointer hand on hover */
